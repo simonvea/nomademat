@@ -98,11 +98,3 @@ function updateAttending() {
   } 
   
 }
-
-
-        
-function testFunction() {
-  
-  Logger.log(findNumberAttending("Oslotre"));
-  
-}
