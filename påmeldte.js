@@ -69,7 +69,6 @@ function findNumberAttending(kundenavn) {
 function updateAttending() {
  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Fremside");
  var data = sheet.getDataRange().getValues();
- var ukedager = ["mandag","tirsdag","onsdag","torsdag","fredag"];
   
  var idag = new Date();
  var oppdatert = sheet.getRange("C2:C2");
